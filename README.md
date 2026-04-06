@@ -36,10 +36,7 @@ The Truth-Seeking Pod creates an environment where an AI Debater proposes argume
    ```
 
 3. **Download models and llama.cpp:**
-   Use the provided Python script to download the necessary llama.cpp into the designated directory.
-   ```bash
-   python download_llama.py
-   ```
+   Download llama.cpp from their official GitHub, and models of your choice from Hugging Face (I downloaded Unsloth's GGUFs). Make sure you update their paths in `start_servers.bat`.
 
 ### Running the Application
 
