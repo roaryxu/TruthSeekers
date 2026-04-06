@@ -26,7 +26,7 @@ The Truth-Seeking Pod creates an environment where an AI Debater proposes argume
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/TruthSeekers.git
+   git clone https://github.com/roaryxu/TruthSeekers.git
    cd TruthSeekers
    ```
 
@@ -75,7 +75,7 @@ For a Truth-Seeking Pod to be stable, the User must explicitly modify the standa
 3. Radical Transparency: I (the User) grant the Skeptic full permission to be intellectually aggressive. I grant the Referee full permission to penalize my logic.
 4. CUDOS Norms: We adhere to Communalism (shared knowledge), Universality (impersonal criteria), Disinterestedness (no personal stake), and Organised Skepticism (suspension of judgment).
 5. Quantified Beliefs: No assertion will be made without a confidence score (0-10).
-6. The Winner: The 'winner' of this session is the one who most successfully updates their beliefs based on the counter-evidence provided."
+6. The Winner: The 'winner' of this session is the one who most successfully updates their beliefs based on the counter-evidence provided. *I hope this is you.*
 
 ## 🤝 Contributing
 Contributions and comments are welcome! Please feel free to submit a Pull Request.
