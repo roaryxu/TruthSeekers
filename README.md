@@ -20,7 +20,7 @@ The Truth-Seeking Pod creates an environment where an AI Debater proposes argume
 ### Prerequisites
 - Windows 10/11 (for the included `.bat` scripts)
 - Python 3.8+
-- Hardware capable of running large GGUF models (GPU acceleration recommended but not required) - *demo was filmed on 6GB VRAM 3060ti*
+- Hardware capable of running large GGUF models (GPU acceleration recommended but not required) - *demo was filmed on 6GB VRAM 3060ti with Gemma-3-4B-Q4 as Debater and Qwen-3.5-9B-Q4 as Referee.*
 
 ### Installation
 
