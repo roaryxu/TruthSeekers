@@ -1,6 +1,6 @@
 # Truth-Seeking Pod
 
-![Logo](logo.svg)
+![TruthSeekers](https://github.com/user-attachments/assets/8322563e-2504-4f01-b208-785fba41db75)
 
 **Truth-Seeking Pod** is an open-source, local-first Streamlit application designed to run two large language models (LLMs) concurrently in a structured debate format. By leveraging `llama.cpp`, the application orchestrates a continuous interaction between a **Debater** model and a **Referee** model, facilitating adversarial debate and rigorous fact-checking entirely on your local hardware.
 
