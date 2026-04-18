@@ -76,7 +76,12 @@ def prepare_history(messages, current_agent):
         role = "assistant" if msg["name"] == current_agent else "user"
         # Prefix the content so the models understand who is speaking in the transcript
         name_prefix = f"**{msg['name']}**: "
-        api_messages.append({"role": role, "content": f"{name_prefix}{msg.get('content', '')}"})
+        formatted_content = f"{name_prefix}{msg.get('content', '')}"
+        
+        if api_messages and api_messages[-1]["role"] == role:
+            api_messages[-1]["content"] += f"\n\n{formatted_content}"
+        else:
+            api_messages.append({"role": role, "content": formatted_content})
     return api_messages
 
 # React to user input
